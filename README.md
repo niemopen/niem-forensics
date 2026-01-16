@@ -6,6 +6,7 @@ The [NIEMOpen Forensics Subcommittee](https://niemopen.org/community/forensics/)
 ## Leadership
 * Ryan Triplett, Chair
 *	Patricia Wolfhope, Co-Chair
+*	Michelle Martin, Co-Chair
 *	Lucas Zarwell, Co-Chair (Tentative)
 *	Jennifer Stathakis, Ombudsman
 
