@@ -18,6 +18,7 @@ The Forensics Subcommittee features 6 expert groups, or “Tiger Teams”, that 
 *	Firearms and Toolmarks
 *	Uncrewed Systems
 *	Weapons Technical Intelligence/Weapons Exploitation
+*	Forensic Ontology
 
 ## Upcoming Meetings
 Meeting dates and times will be added here once they are scheduled. 
