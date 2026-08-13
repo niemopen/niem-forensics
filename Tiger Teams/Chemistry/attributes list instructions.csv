@@ -1,0 +1,28 @@
+﻿Instructions,,
+"The baseline attributes list provides a starting point for tiger team development. Each row in the spreadsheet has a ""Status"" that indicates what level of review and refinement is needed by the tiger team for a particular attribute. Tiger teams will refine each existing attribute according to it's status, add new attributes as needed, and remove any unnecessary attributes as needed. The two main columns that tiger teams are responsible for updating are the NIEM Equivalent/Refined Attribute Name and the NIEM Equivalent/Refined Attribute Definition. Most other columns are for reference purposes. The table below provides a description of each column and describes how to make updates to the spreadsheet under ""Actions for Tiger Team"".",,
+Column,Description,Actions for Tiger Team
+A - Original Attribute Name,Original name given to the attribute/element during initial data discovery. This is the name before the attribute has been refined for addition into NIEMOpen.,N/A – For reference purposes
+B - Original Attribute Type,Data type associated with the original attribute/element.,N/A – For reference purposes 
+C - Original Attribute Definition,Original definition found or given to the attribute/element during initial data discovery. This is the definition before the attribute has been refined for addition into NIEMOpen.,N/A – For reference purposes
+D - Parent Elements,"Elements that the element/attribute is contained within. For example, “ReportInformation” is a parent element of “ReportStartDate” and “ReportExaminer”.",N/A – For reference purposes
+E - NIEM Equivalent/Refined Attribute Name,Equivalent of “Original Attribute Name” that is either already in NIEM or has been reviewed/updated and is ready to add to NIEM.,"For existing attributes, review and update according to column H  - Status (further instruction provided below). If gaps are identified, new attributes can be added as a new line at the end of the spreadsheet."
+F - NIEM Equivalent/Refined Attribute Type,Equivalent of “Original Attribute Type” that is either already in NIEM or has been reviewed/updated and is ready to add to NIEM.,"No action required,  however, SMEs with knowledge of NIEM data types can proposed updates as they see fit."
+G - NIEM Equivalent/Refined Attribute Definition,Equivalent of “Original Attribute Definition” that is either already in NIEM or has been reviewed/updated and is ready to add to NIEM.,"For existing attributes, review and update according to column H  - Status (further instruction provided below). If gaps are identified, new attributes can be added as a new line at the end of the spreadsheet."
+H - Status,Description of where the attribute is at in the development process. Descriptions of each status are below:,Actions for the tiger team depend on the attribute status. Instructions for each status are provided below:
+,,
+,“Initial refinement completed. Pending Tiger Team review.” – A refined attribute exists but needs final confirmation from subject matter experts on the Tiger Team.,"“Initial refinement completed. Pending Tiger Team review.”:
+1. Review the existing values for the NIEM Equivalent/Refined Attribute Name and Definition (columns E and G). The Original Attribute Name and Definition (columns A and C) can also be referenced if more context is needed.
+2. If the tiger team agrees with the existing values for NIEM Equivalent/Refined Attribute Name and Definition, update the status (column H) to ""COMPLETE"". 
+3. If the tiger team does not agree with the existing values, edit the NIEM Equivalent/Refined Attribute Name and Definition with the proposed updates. If the recommendation is to remove the attribute, type ""REMOVE"" instead of a proposed update.  Update the status to ""COMPLETE"".
+4. If further explanation is needed, add a comment in the optional Comments column. "
+,,
+,"“Needs to be refined by Tiger Team.” – A refined attribute does not exist yet. Tiger Team will refer to the original attribute columns, make updates to the name, type, and definition as needed, and add to the refined attribute columns.","“Needs to be refined by Tiger Team.”:
+1. Review the Original Attribute Name and Definition. 
+2. Fill in the NIEM Equivalent/Refined Attribute Name and Definition with the proposed updates. If the recommendation is to remove the attribute, type ""REMOVE"" instead of a proposed update.
+3. Update the status to ""COMPLETE"".
+4. If further explanation is needed, add a comment in the optional Comments column."
+,,
+,“Mapped to existing NIEMOpen attribute.” – This attribute has an equivalent that already exists in the NIEM model. ,"“Mapped to existing NIEMOpen attribute.”:
+1. Compare the NIEM Equivalent/Refined Attribute Name and Definition with the Original Attribute Name and Definition to verify the NIEM equivalent accurately represents the original attribute.
+2. If the mapping is correct, no further action is required. However, if the tiger team believes the mapping is not an accurate representation of the Original Attribute, conduct refinement according to “Needs to be refined by Tiger Team” steps above, and add a comment to indicate that the attribute is no longer mapped to NIEM."
+I - Comments,Additional notes about the attribute,"Add comments to explain why an attribute should be added, deleted, or changed. Additional notes can also be made here."
